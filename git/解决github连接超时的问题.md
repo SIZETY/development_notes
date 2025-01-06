@@ -4,11 +4,14 @@
 
 在最开始的时候，每次在推代码的时候总是很慢，最近几次直接 timeout 无法推送，也无法拉取，尝试 clone 其它仓库也不行。
 
-## 原因分析
+## 分析
+
+> https://blog.csdn.net/the__future/article/details/130038818
 
 经过搜索问题原因得到结果：确实是与 github 连接的时候超时了。
 
 ## 解决方案
+
 
 **1. 先测试与 github ssh 连接状态**
 
